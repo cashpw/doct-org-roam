@@ -31,6 +31,7 @@
 ;;; Code:
 
 (require 'doct)
+(require 'cl-lib)
 (eval-when-compile (require 'subr-x))
 
 (defun doct-org-roam-convert (groups)
